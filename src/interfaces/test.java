@@ -16,6 +16,11 @@ public class test extends javax.swing.JFrame {
     public test() {
         initComponents();
     }
+    
+    public void load(){
+    
+        System.out.println("Hi");
+    }
 
     /**
      * This method is called from within the constructor to initialize the form.
