@@ -19,7 +19,7 @@ public class test extends javax.swing.JFrame {
     
     public void load(){
     
-        System.out.println("Hip;kj------hgfhgjg-------");
+        System.out.println("Hip;kj------hgfhgjg----xcx---");
     }
 
     /**
