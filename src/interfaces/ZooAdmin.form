@@ -230,7 +230,7 @@
                             </Constraint>
                           </Constraints>
                         </Component>
-                        <Component class="com.toedter.calendar.JDateChooser" name="jDateChooser1">
+                        <Component class="com.toedter.calendar.JDateChooser" name="animalbd">
                           <Properties>
                             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                               <Color blue="66" green="66" red="66" type="rgb"/>
@@ -238,7 +238,8 @@
                             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                               <Color blue="66" green="66" red="66" type="rgb"/>
                             </Property>
-                            <Property name="name" type="java.lang.String" value="jDateChooser1" noResource="true"/>
+                            <Property name="dateFormatString" type="java.lang.String" value="yyyy-MM-dd"/>
+                            <Property name="name" type="java.lang.String" value="animalbd" noResource="true"/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">

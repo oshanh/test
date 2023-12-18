@@ -33,7 +33,7 @@ public class ZooAdmin extends javax.swing.JFrame {
         jLabel12 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
         jTextField2 = new javax.swing.JTextField();
-        jDateChooser1 = new com.toedter.calendar.JDateChooser();
+        animalbd = new com.toedter.calendar.JDateChooser();
         jTextField3 = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
@@ -171,10 +171,11 @@ public class ZooAdmin extends javax.swing.JFrame {
         jTextField2.setName("jTextField2"); // NOI18N
         AddAnimal.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 80, 193, -1));
 
-        jDateChooser1.setBackground(new java.awt.Color(102, 102, 102));
-        jDateChooser1.setForeground(new java.awt.Color(102, 102, 102));
-        jDateChooser1.setName("jDateChooser1"); // NOI18N
-        AddAnimal.add(jDateChooser1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 120, 190, -1));
+        animalbd.setBackground(new java.awt.Color(102, 102, 102));
+        animalbd.setForeground(new java.awt.Color(102, 102, 102));
+        animalbd.setDateFormatString("yyyy-MM-dd");
+        animalbd.setName("animalbd"); // NOI18N
+        AddAnimal.add(animalbd, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 120, 190, -1));
 
         jTextField3.setBackground(new java.awt.Color(102, 102, 102));
         jTextField3.setText(bundle.getString("ZooAdmin.jTextField3.text")); // NOI18N
@@ -940,6 +941,7 @@ int positionX=0 ,positionY=0;
     private javax.swing.JPanel Employee_tab;
     private javax.swing.JPanel Ticket_tab;
     private javax.swing.JPanel Users_tab;
+    private com.toedter.calendar.JDateChooser animalbd;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
@@ -952,7 +954,6 @@ int positionX=0 ,positionY=0;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
-    private com.toedter.calendar.JDateChooser jDateChooser1;
     private com.toedter.calendar.JDateChooser jDateChooser2;
     private com.toedter.calendar.JDateChooser jDateChooser3;
     private com.toedter.calendar.JDateChooser jDateChooser4;
