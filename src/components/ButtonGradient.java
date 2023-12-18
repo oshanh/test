@@ -19,6 +19,8 @@ import javax.swing.Timer;
 import javax.swing.border.EmptyBorder;
 import java.util.Scanner;
 
+//ok
+
 public class ButtonGradient extends JButton {
 
     public float getSizeSpeed() {
