@@ -17,6 +17,7 @@ import java.awt.image.BufferedImage;
 import javax.swing.JButton;
 import javax.swing.Timer;
 import javax.swing.border.EmptyBorder;
+import java.util.Scanner;
 
 public class ButtonGradient extends JButton {
 
