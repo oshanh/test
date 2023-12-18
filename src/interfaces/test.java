@@ -15,6 +15,7 @@ public class test extends javax.swing.JFrame {
      */
     public test() {
         initComponents();
+        
     }
     
     public void load(){

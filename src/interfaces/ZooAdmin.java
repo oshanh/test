@@ -171,6 +171,7 @@ public class ZooAdmin extends javax.swing.JFrame {
         jTextField2.setName("jTextField2"); // NOI18N
         AddAnimal.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 80, 193, -1));
 
+        jDateChooser1.setBackground(new java.awt.Color(102, 102, 102));
         jDateChooser1.setForeground(new java.awt.Color(102, 102, 102));
         jDateChooser1.setName("jDateChooser1"); // NOI18N
         AddAnimal.add(jDateChooser1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 120, 190, -1));
@@ -644,6 +645,16 @@ public class ZooAdmin extends javax.swing.JFrame {
         jPanel3.setBackground(new java.awt.Color(0, 0, 0));
         jPanel3.setToolTipText(bundle.getString("ZooAdmin.jPanel3.toolTipText")); // NOI18N
         jPanel3.setName("jPanel3"); // NOI18N
+        jPanel3.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jPanel3MouseDragged(evt);
+            }
+        });
+        jPanel3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jPanel3MousePressed(evt);
+            }
+        });
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel2.setFont(new java.awt.Font("sansserif", 1, 18)); // NOI18N
@@ -877,6 +888,17 @@ public class ZooAdmin extends javax.swing.JFrame {
         // TODO add your handling code here:
         System.exit(0);
     }//GEN-LAST:event_jLabel27MouseClicked
+int positionX=0 ,positionY=0;
+    private void jPanel3MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel3MousePressed
+        // TODO add your handling code here:
+        positionX=evt.getX();
+        positionY=evt.getY();
+    }//GEN-LAST:event_jPanel3MousePressed
+
+    private void jPanel3MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel3MouseDragged
+        // TODO add your handling code here:
+        setLocation(evt.getXOnScreen()-positionX,evt.getYOnScreen()-positionY);
+    }//GEN-LAST:event_jPanel3MouseDragged
 
     
     public static void main(String args[]) {
