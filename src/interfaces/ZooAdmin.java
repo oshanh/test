@@ -93,7 +93,7 @@ public class ZooAdmin extends javax.swing.JFrame {
         jTextField16 = new javax.swing.JTextField();
         jScrollPane4 = new javax.swing.JScrollPane();
         jTable4 = new javax.swing.JTable();
-        panelCover1 = new components.Green_Gradient();
+        jPanel2 = new javax.swing.JPanel();
         menu1 = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
         menu3 = new javax.swing.JPanel();
@@ -103,8 +103,8 @@ public class ZooAdmin extends javax.swing.JFrame {
         jLabel13 = new javax.swing.JLabel();
         menu2 = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
-        buttonGradient1 = new components.ButtonGradient();
         jLabel2 = new javax.swing.JLabel();
+        jLabel27 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setForeground(new java.awt.Color(0, 153, 0));
@@ -636,11 +636,10 @@ public class ZooAdmin extends javax.swing.JFrame {
 
         jPanel1.add(tabs, new org.netbeans.lib.awtextra.AbsoluteConstraints(3, -39, 1160, 740));
 
-        jLayeredPane1.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 20, 1150, 680));
+        jLayeredPane1.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 30, 1150, 670));
 
-        panelCover1.setForeground(new java.awt.Color(0, 102, 102));
-        panelCover1.setName("panelCover1"); // NOI18N
-        panelCover1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel2.setName("jPanel2"); // NOI18N
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         menu1.setName("menu1"); // NOI18N
         menu1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -669,7 +668,7 @@ public class ZooAdmin extends javax.swing.JFrame {
                 .addContainerGap(18, Short.MAX_VALUE))
         );
 
-        panelCover1.add(menu1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 100, 260, 50));
+        jPanel2.add(menu1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 100, 260, 50));
 
         menu3.setName("menu3"); // NOI18N
         menu3.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -698,7 +697,7 @@ public class ZooAdmin extends javax.swing.JFrame {
                 .addGap(16, 16, 16))
         );
 
-        panelCover1.add(menu3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 200, 260, 50));
+        jPanel2.add(menu3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 200, 260, 50));
 
         menu4.setName("menu4"); // NOI18N
         menu4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -727,7 +726,7 @@ public class ZooAdmin extends javax.swing.JFrame {
                 .addGap(16, 16, 16))
         );
 
-        panelCover1.add(menu4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, 260, 50));
+        jPanel2.add(menu4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, 260, 50));
 
         jLabel13.setBackground(new java.awt.Color(0, 51, 0));
         jLabel13.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -735,7 +734,7 @@ public class ZooAdmin extends javax.swing.JFrame {
         jLabel13.setText(bundle.getString("ZooAdmin.jLabel13.text")); // NOI18N
         jLabel13.setName("jLabel13"); // NOI18N
         jLabel13.setOpaque(true);
-        panelCover1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 260, 100));
+        jPanel2.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 260, 100));
 
         menu2.setForeground(new java.awt.Color(255, 255, 255));
         menu2.setName("menu2"); // NOI18N
@@ -750,27 +749,20 @@ public class ZooAdmin extends javax.swing.JFrame {
         jLabel7.setName("jLabel7"); // NOI18N
         menu2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(75, 16, -1, -1));
 
-        panelCover1.add(menu2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 260, 50));
+        jPanel2.add(menu2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 260, 50));
 
-        jLayeredPane1.add(panelCover1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, 260, 680));
-
-        buttonGradient1.setToolTipText(bundle.getString("ZooAdmin.buttonGradient1.toolTipText")); // NOI18N
-        buttonGradient1.setBorderPainted(false);
-        buttonGradient1.setColor1(new java.awt.Color(255, 0, 51));
-        buttonGradient1.setColor2(new java.awt.Color(255, 51, 51));
-        buttonGradient1.setName("buttonGradient1"); // NOI18N
-        buttonGradient1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                buttonGradient1MouseClicked(evt);
-            }
-        });
-        jLayeredPane1.add(buttonGradient1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1390, 2, 16, 16));
+        jLayeredPane1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 260, 670));
 
         jLabel2.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText(bundle.getString("ZooAdmin.jLabel2.text")); // NOI18N
         jLabel2.setName("jLabel2"); // NOI18N
         jLayeredPane1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 0, 380, -1));
+
+        jLabel27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/red_dot.png"))); // NOI18N
+        jLabel27.setText(bundle.getString("ZooAdmin.jLabel27.text")); // NOI18N
+        jLabel27.setName("jLabel27"); // NOI18N
+        jLayeredPane1.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(1387, 0, 20, 20));
 
         getContentPane().add(jLayeredPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 700));
 
@@ -846,11 +838,6 @@ public class ZooAdmin extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField16ActionPerformed
 
-    private void buttonGradient1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buttonGradient1MouseClicked
-        // TODO add your handling code here:
-        System.exit(0);
-    }//GEN-LAST:event_buttonGradient1MouseClicked
-
     private void menu2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_menu2MouseClicked
         // TODO add your handling code here:
         tabs.setSelectedIndex(1);
@@ -901,7 +888,6 @@ public class ZooAdmin extends javax.swing.JFrame {
     private javax.swing.JPanel Employee_tab;
     private javax.swing.JPanel Ticket_tab;
     private javax.swing.JPanel Users_tab;
-    private components.ButtonGradient buttonGradient1;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
@@ -937,6 +923,7 @@ public class ZooAdmin extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel28;
     private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
@@ -950,6 +937,7 @@ public class ZooAdmin extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel9;
     private javax.swing.JLayeredPane jLayeredPane1;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
@@ -978,7 +966,6 @@ public class ZooAdmin extends javax.swing.JFrame {
     private javax.swing.JPanel menu2;
     private javax.swing.JPanel menu3;
     private javax.swing.JPanel menu4;
-    private components.Green_Gradient panelCover1;
     private javax.swing.JTabbedPane tabs;
     // End of variables declaration//GEN-END:variables
 }
