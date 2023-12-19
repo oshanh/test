@@ -31,9 +31,9 @@ public class ZooAdmin extends javax.swing.JFrame {
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
-        jTextField2 = new javax.swing.JTextField();
-        animalbd = new com.toedter.calendar.JDateChooser();
+        animalID = new javax.swing.JTextField();
+        animalName = new javax.swing.JTextField();
+        animalDate = new com.toedter.calendar.JDateChooser();
         jTextField3 = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
@@ -161,21 +161,21 @@ public class ZooAdmin extends javax.swing.JFrame {
         jLabel12.setName("jLabel12"); // NOI18N
         AddAnimal.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 120, 43, -1));
 
-        jTextField1.setBackground(new java.awt.Color(102, 102, 102));
-        jTextField1.setText(bundle.getString("ZooAdmin.jTextField1.text")); // NOI18N
-        jTextField1.setName("jTextField1"); // NOI18N
-        AddAnimal.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 80, 193, -1));
+        animalID.setBackground(new java.awt.Color(102, 102, 102));
+        animalID.setText(bundle.getString("ZooAdmin.animalID.text")); // NOI18N
+        animalID.setName("animalID"); // NOI18N
+        AddAnimal.add(animalID, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 80, 193, -1));
 
-        jTextField2.setBackground(new java.awt.Color(102, 102, 102));
-        jTextField2.setText(bundle.getString("ZooAdmin.jTextField2.text")); // NOI18N
-        jTextField2.setName("jTextField2"); // NOI18N
-        AddAnimal.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 80, 193, -1));
+        animalName.setBackground(new java.awt.Color(102, 102, 102));
+        animalName.setText(bundle.getString("ZooAdmin.animalName.text")); // NOI18N
+        animalName.setName("animalName"); // NOI18N
+        AddAnimal.add(animalName, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 80, 193, -1));
 
-        animalbd.setBackground(new java.awt.Color(102, 102, 102));
-        animalbd.setForeground(new java.awt.Color(102, 102, 102));
-        animalbd.setDateFormatString("yyyy-MM-dd");
-        animalbd.setName("animalbd"); // NOI18N
-        AddAnimal.add(animalbd, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 120, 190, -1));
+        animalDate.setBackground(new java.awt.Color(102, 102, 102));
+        animalDate.setForeground(new java.awt.Color(102, 102, 102));
+        animalDate.setDateFormatString("yyyy-MM-dd");
+        animalDate.setName("animalDate"); // NOI18N
+        AddAnimal.add(animalDate, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 120, 190, -1));
 
         jTextField3.setBackground(new java.awt.Color(102, 102, 102));
         jTextField3.setText(bundle.getString("ZooAdmin.jTextField3.text")); // NOI18N
@@ -941,7 +941,9 @@ int positionX=0 ,positionY=0;
     private javax.swing.JPanel Employee_tab;
     private javax.swing.JPanel Ticket_tab;
     private javax.swing.JPanel Users_tab;
-    private com.toedter.calendar.JDateChooser animalbd;
+    private com.toedter.calendar.JDateChooser animalDate;
+    private javax.swing.JTextField animalID;
+    private javax.swing.JTextField animalName;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
@@ -1002,7 +1004,6 @@ int positionX=0 ,positionY=0;
     private javax.swing.JTable jTable2;
     private javax.swing.JTable jTable3;
     private javax.swing.JTable jTable4;
-    private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField10;
     private javax.swing.JTextField jTextField11;
     private javax.swing.JTextField jTextField12;
@@ -1010,7 +1011,6 @@ int positionX=0 ,positionY=0;
     private javax.swing.JTextField jTextField14;
     private javax.swing.JTextField jTextField15;
     private javax.swing.JTextField jTextField16;
-    private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
