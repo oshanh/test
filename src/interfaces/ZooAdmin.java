@@ -686,6 +686,7 @@ public class ZooAdmin extends javax.swing.JFrame {
 
         jLayeredPane1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1410, 30));
 
+        jPanel2.setBackground(new java.awt.Color(0, 51, 51));
         jPanel2.setName("jPanel2"); // NOI18N
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
