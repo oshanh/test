@@ -36,7 +36,7 @@ public class ZooAdmin extends javax.swing.JFrame {
         animalDate = new com.toedter.calendar.JDateChooser();
         jTextField3 = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        animaladdbtn = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jLabel14 = new javax.swing.JLabel();
         jTextField4 = new javax.swing.JTextField();
@@ -192,10 +192,10 @@ public class ZooAdmin extends javax.swing.JFrame {
         });
         AddAnimal.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 190, -1, -1));
 
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/add.png"))); // NOI18N
-        jButton2.setText(bundle.getString("ZooAdmin.jButton2.text")); // NOI18N
-        jButton2.setName("jButton2"); // NOI18N
-        AddAnimal.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 190, -1, -1));
+        animaladdbtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/add.png"))); // NOI18N
+        animaladdbtn.setText(bundle.getString("ZooAdmin.animaladdbtn.text")); // NOI18N
+        animaladdbtn.setName("animaladdbtn"); // NOI18N
+        AddAnimal.add(animaladdbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 190, -1, -1));
 
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/update.png"))); // NOI18N
         jButton3.setText(bundle.getString("ZooAdmin.jButton3.text")); // NOI18N
@@ -945,11 +945,11 @@ int positionX=0 ,positionY=0;
     private com.toedter.calendar.JDateChooser animalDate;
     private javax.swing.JTextField animalID;
     private javax.swing.JTextField animalName;
+    private javax.swing.JButton animaladdbtn;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
